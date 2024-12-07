@@ -1,0 +1,29 @@
+# Ambientes virtuais Python
+venv/
+env/
+
+# Caches e arquivos desnecessários
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Variáveis de ambiente e configurações locais
+*.env
+.env.*
+
+# Dependências e builds (Angular/Node.js)
+node_modules/
+dist/
+package-lock.json
+yarn.lock
+
+# Arquivos temporários e de sistema
+.DS_Store
+*.swp
+*.tmp
+*.bak
+.idea/
